@@ -28,7 +28,26 @@
                     visibility: hidden;
                 }
             }
-            
+            #maintitle{
+                    color: blue;
+                }
+                .headernavbar{
+                   background-color: darkgrey; 
+                }
+                .grid {
+                display: grid;
+                padding: 20px;
+                grid-column-gap: 20px;
+                grid-row-gap: 10px;
+                grid-template-columns: 200px 200px auto;
+                }
+
+                .grid-item {
+                    background-color: white;
+                    font-size: 15px;
+                    padding: 20px;
+                    text-align: center;
+                }
         </style>
     </head>
     <body>
@@ -41,5 +60,20 @@
             <button type=button>Investing</button>
             <button type=button>Better Money Habits</button>
         </div>
+        <header>
+                <nav class="headernavbar">
+                    <div class="grid">
+                            <div class="grid-item">Personal</div>
+                            <div class="grid-item">Pequeños Negocios</div>
+                            <div class="grid-item">Administración de riqueza</div>
+                            <div class="grid-item">Negocios e instituciones</div>
+                            <div class="grid-item">Sobre Nosotros</div>
+                            <div class="grid-item">6</div>
+                    </div>                
+                </nav>
+                <h1 id="maintitle">Bank of Spain <img src="spanishflag.png" alt="spanishflag" width="55" height="40" ></h1>
+        </header>
+    
     </body>
+
 </html>
