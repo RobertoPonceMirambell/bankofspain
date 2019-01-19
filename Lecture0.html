@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>Bank of America</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            @media (min-width: 922px) {
+                .main-menu {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: nowrap;
+                }
+                .main-menu > button {
+                    font-size: 20px;
+                    padding: 5px 0px;
+                    margin: 10px;
+                    background-color: white;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+            }
+            @media (max-width: 921px) {
+                .main-menu {
+                    visibility: hidden;
+                }
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="main-menu">
+            <button type=button>Checkings</button>
+            <button type=button>Savings</button>
+            <button type=button>Credit Cards</button>
+            <button type=button>Home Loans</button>
+            <button type=button>Auto Loans</button>
+            <button type=button>Investing</button>
+            <button type=button>Better Money Habits</button>
+        </div>
+    </body>
+</html>
